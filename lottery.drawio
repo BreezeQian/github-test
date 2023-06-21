@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T02:49:07.826Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="3YYu_AQeJpKBjA_jpKe-" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T02:49:31.584Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="he2r-H-C17ZOcfzOhd5B" version="21.5.0" type="github">
   <diagram name="第 1 页" id="bibF9dJg5SwcvGGGdXnd">
     <mxGraphModel dx="1066" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,13 +20,13 @@
           <mxGeometry x="50" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-6" value="3.结果落库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-7" value="4.发送MQ，触发抽奖流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-8" value="5.结果返回" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="760" width="120" height="60" as="geometry" />
+          <mxGeometry x="50" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-9" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="220" width="120" height="60" as="geometry" />
@@ -41,6 +41,18 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="120" y="290" as="sourcePoint" />
             <mxPoint x="120" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFQvKzb5lcJhRTIT20Lr-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFQvKzb5lcJhRTIT20Lr-6" target="CFQvKzb5lcJhRTIT20Lr-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="550" as="sourcePoint" />
+            <mxPoint x="120" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CFQvKzb5lcJhRTIT20Lr-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFQvKzb5lcJhRTIT20Lr-7" target="CFQvKzb5lcJhRTIT20Lr-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="550" as="sourcePoint" />
+            <mxPoint x="120" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
