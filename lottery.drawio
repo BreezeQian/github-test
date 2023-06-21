@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T03:01:54.594Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="HfjkFlmuiLy8XFiJd78S" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T03:04:31.751Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="JZPD5JDo8LRjLnWGb5lo" version="21.5.0" type="github">
   <diagram name="第 1 页" id="bibF9dJg5SwcvGGGdXnd">
-    <mxGraphModel dx="927" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1333" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CFQvKzb5lcJhRTIT20Lr-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="130" width="556" height="840" as="geometry" />
+        </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-2" value="1.领取活动&lt;br&gt;&lt;div style=&quot;background-color: rgb(36, 41, 46); color: rgb(209, 213, 218); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;doPartake&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="220" width="120" height="60" as="geometry" />
         </mxCell>
@@ -120,6 +123,9 @@
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-32" value="根据uId, activityId查询" style="text;whiteSpace=wrap;fontColor=#FF0080;" vertex="1" parent="1">
           <mxGeometry x="750" y="195" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CFQvKzb5lcJhRTIT20Lr-34" value="模板模式-抽象出领取活动的流程" style="text;whiteSpace=wrap;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="470" y="140" width="180" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
