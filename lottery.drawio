@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T02:55:47.930Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="JQDz5vlzZmz-LD6brNah" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T02:58:20.099Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="mQAXCik-nVG22vryUrW3" version="21.5.0" type="github">
   <diagram name="第 1 页" id="bibF9dJg5SwcvGGGdXnd">
     <mxGraphModel dx="1333" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,15 @@
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-21" value="1.3活动信息校验处理&lt;br&gt;&lt;div style=&quot;background-color: rgb(36, 41, 46); color: rgb(209, 213, 218); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;checkActivityBill&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="675" y="480" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFQvKzb5lcJhRTIT20Lr-22" value="1.4扣减活动库存&lt;br&gt;&lt;div style=&quot;background-color: rgb(36, 41, 46); color: rgb(209, 213, 218); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;subtractionActivityStock&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="642.5" y="610" width="215" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFQvKzb5lcJhRTIT20Lr-23" value="1.5领取活动信息&lt;br&gt;&lt;div style=&quot;background-color: rgb(36, 41, 46); color: rgb(209, 213, 218); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;grabActivity&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="740" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFQvKzb5lcJhRTIT20Lr-24" value="1.6封装最终的结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="675" y="870" width="150" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
