@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-21T02:54:22.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="ZygpniqsMBQFvpmHDBDU" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-21T02:55:04.219Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.51" etag="aZ9NTPs6CRI1p4ZezgaT" version="21.5.0" type="github">
   <diagram name="第 1 页" id="bibF9dJg5SwcvGGGdXnd">
-    <mxGraphModel dx="1066" dy="725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1333" dy="906" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           <mxGeometry x="50" y="740" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-9" value="1.1查询是否存在未执行抽奖领取活动单&lt;br&gt;&lt;div style=&quot;background-color: rgb(36, 41, 46); color: rgb(209, 213, 218); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;queryNoConsumedTakeActivityOrder&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="220" width="280" height="60" as="geometry" />
+          <mxGeometry x="610" y="220" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFQvKzb5lcJhRTIT20Lr-2" target="CFQvKzb5lcJhRTIT20Lr-5">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -62,24 +62,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-15" value="返回领取结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="780" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="1090" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-16" value="user_take_activity 存在 state = 0，领取了但抽奖过程失败的，可以直接返回领取结果继续抽奖" style="text;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="590" y="180" width="190" height="40" as="geometry" />
+          <mxGeometry x="900" y="180" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFQvKzb5lcJhRTIT20Lr-9" target="CFQvKzb5lcJhRTIT20Lr-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="610" y="280" as="sourcePoint" />
-            <mxPoint x="660" y="230" as="targetPoint" />
+            <mxPoint x="920" y="280" as="sourcePoint" />
+            <mxPoint x="970" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-19" value="1.2查询活动账单&lt;br&gt;&lt;div style=&quot;background-color: rgb(36, 41, 46); color: rgb(209, 213, 218); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 12pt;&quot;&gt;queryActivityBill&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="365" y="350" width="150" height="60" as="geometry" />
+          <mxGeometry x="675" y="350" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="CFQvKzb5lcJhRTIT20Lr-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CFQvKzb5lcJhRTIT20Lr-9" target="CFQvKzb5lcJhRTIT20Lr-19">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="180" y="260" as="sourcePoint" />
-            <mxPoint x="310" y="260" as="targetPoint" />
+            <mxPoint x="490" y="260" as="sourcePoint" />
+            <mxPoint x="620" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
